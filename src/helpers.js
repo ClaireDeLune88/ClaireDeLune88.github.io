@@ -15,23 +15,27 @@ export const hatchArray = [
   {
     id: "hatch-1",
     nr: 1,
-    img: "./img/1.jpg",
+    img_background: "./img/1.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
-      "Pas de chocolat aujourd'hui mais tu as gagné massage! ",
+      "Pas de chocolat aujourd'hui mais tu as gagné un massage! ",
     open: false
+    
   },
   {
     id: "hatch-2",
     nr: 2,
-    img: "./img/2.jpg",
+    img_background: "./img/2.jpg",
+    img_foreground: "./img/2_back.jpg",
     text:
-      "53c237_73x7",
+      "Décorer le ficus de Noël",
     open: false
   },
   {
     id: "hatch-3",
     nr: 3,
-    img: "./img/3.jpg",
+    img_background: "./img/3.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -39,7 +43,8 @@ export const hatchArray = [
   {
     id: "hatch-4",
     nr: 4,
-    img: "./img/4.jpg",
+    img_background: "./img/4.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -47,7 +52,8 @@ export const hatchArray = [
   {
     id: "hatch-5",
     nr: 5,
-    img: "./img/5.jpg",
+    img_background: "./img/5.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -55,7 +61,8 @@ export const hatchArray = [
   {
     id: "hatch-6",
     nr: 6,
-    img: "./img/6.jpg",
+    img_background: "./img/6.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -63,7 +70,8 @@ export const hatchArray = [
   {
     id: "hatch-7",
     nr: 7,
-    img: "./img/7.jpg",
+    img_background: "./img/7.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -71,7 +79,8 @@ export const hatchArray = [
   {
     id: "hatch-8",
     nr: 8,
-    img: "./img/8.jpg",
+    img_background: "./img/8.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -79,7 +88,8 @@ export const hatchArray = [
   {
     id: "hatch-9",
     nr: 9,
-    img: "./img/9.jpg",
+    img_background: "./img/9.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -87,7 +97,8 @@ export const hatchArray = [
   {
     id: "hatch-10",
     nr: 10,
-    img: "./img/10.jpg",
+    img_background: "./img/10.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -95,7 +106,8 @@ export const hatchArray = [
   {
     id: "hatch-11",
     nr: 11,
-    img: "./img/11.jpg",
+    img_background: "./img/11.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -103,7 +115,8 @@ export const hatchArray = [
   {
     id: "hatch-12",
     nr: 12,
-    img: "./img/12.jpg",
+    img_background: "./img/12.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -111,7 +124,8 @@ export const hatchArray = [
   {
     id: "hatch-13",
     nr: 13,
-    img: "./img/13.jpg",
+    img_background: "./img/13.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -119,7 +133,8 @@ export const hatchArray = [
   {
     id: "hatch-14",
     nr: 14,
-    img: "./img/14.jpg",
+    img_background: "./img/14.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -127,7 +142,8 @@ export const hatchArray = [
   {
     id: "hatch-15",
     nr: 15,
-    img: "./img/15.jpg",
+    img_background: "./img/15.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -135,7 +151,8 @@ export const hatchArray = [
   {
     id: "hatch-16",
     nr: 16,
-    img: "./img/16.jpg",
+    img_background: "./img/16.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -143,7 +160,8 @@ export const hatchArray = [
   {
     id: "hatch-17",
     nr: 17,
-    img: "./img/17.jpg",
+    img_background: "./img/17.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -151,7 +169,8 @@ export const hatchArray = [
   {
     id: "hatch-18",
     nr: 18,
-    img: "./img/18.jpg",
+    img_background: "./img/18.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -159,7 +178,8 @@ export const hatchArray = [
   {
     id: "hatch-19",
     nr: 19,
-    img: "./img/19.jpg",
+    img_background: "./img/19.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -167,7 +187,8 @@ export const hatchArray = [
   {
     id: "hatch-20",
     nr: 20,
-    img: "./img/20.jpg",
+    img_background: "./img/20.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -175,7 +196,8 @@ export const hatchArray = [
   {
     id: "hatch-21",
     nr: 21,
-    img: "./img/21.jpg",
+    img_background: "./img/21.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -183,7 +205,8 @@ export const hatchArray = [
   {
     id: "hatch-22",
     nr: 22,
-    img: "./img/22.jpg",
+    img_background: "./img/22.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -191,7 +214,8 @@ export const hatchArray = [
   {
     id: "hatch-23",
     nr: 23,
-    img: "./img/23.jpg",
+    img_background: "./img/23.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false
@@ -199,7 +223,8 @@ export const hatchArray = [
   {
     id: "hatch-24",
     nr: 24,
-    img: "./img/24.jpg",
+    img_background: "./img/24.jpg",
+    img_foreground: "./img/hatch_backdrop.jpg",
     text:
       "53c237_73x7",
     open: false

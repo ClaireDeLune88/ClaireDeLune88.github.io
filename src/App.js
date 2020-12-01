@@ -17,22 +17,28 @@ function App() {
 
   // Check if localStorage contains our calendar 
   useEffect(() => {
+    /*
     const calendar = localStorage.calendar
       ? JSON.parse(localStorage.calendar)
       : createCalendar()
+      */
+
+      const calendar = createCalendar()
 
     setHatches(calendar)
   }, [])
 
   // Store calendar in localStorage
+  /*
   useEffect(() => {
     hatches.length && localStorage.setItem('calendar', JSON.stringify(hatches))
   }, [hatches])
+  */
 
   // Check if the date is past
   const isPast = (nr) => {
     const today = new Date()
-    today.setMonth(11)
+    //today.setMonth(11)
     today.setDate(15)
     console.log("Jour: " + today.getDate() + 
                 " Mois: " + today.getMonth() +

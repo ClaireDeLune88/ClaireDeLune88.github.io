@@ -35,7 +35,7 @@ export const StyledHatch = styled.div`
 
   .back {
     position: absolute;
-    background: center / cover url(${hatchBackdrop});
+    background: center / cover url(${props => props.foreground});
     top: 0;
     left: 0;
     z-index: 1;
