@@ -5,6 +5,7 @@ import { createCalendar } from './helpers'
 import Hatch from './Hatch'
 import Toast from 'light-toast';
 
+const antiCheat = true
 const GlobalStyle = createGlobalStyle`
   body {
     background: center / cover url('./img/calendar_backdrop.mistletoe.jpg');
@@ -17,34 +18,40 @@ function App() {
 
   // Check if localStorage contains our calendar 
   useEffect(() => {
-    /*
+    
     const calendar = localStorage.calendar
       ? JSON.parse(localStorage.calendar)
       : createCalendar()
-      */
+      
+      //const calendar = createCalendar()
+      console.log("Text: " + calendar)
 
-      const calendar = createCalendar()
+      const updatedHatches = calendar.map(hatch =>
+        hatch.id === 0 ? { ...hatch, open: !hatch.open } : hatch
+      )
 
     setHatches(calendar)
   }, [])
 
   // Store calendar in localStorage
-  /*
+  
   useEffect(() => {
     hatches.length && localStorage.setItem('calendar', JSON.stringify(hatches))
   }, [hatches])
-  */
+  
 
   // Check if the date is past
   const isPast = (nr) => {
     const today = new Date()
-    //today.setMonth(11)
-    today.setDate(15)
+
+    today.setDate(15);
+    
     console.log("Jour: " + today.getDate() + 
                 " Mois: " + today.getMonth() +
                 " nr: " + nr)
 
-    return today.getDate() >= nr && 
+    return !antiCheat ||
+           today.getDate() >= nr && 
            today.getMonth() === 11
   }
   

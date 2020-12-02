@@ -35,9 +35,9 @@ export const hatchArray = [
     id: "hatch-3",
     nr: 3,
     img_background: "./img/3.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/3_back.jpg",
     text:
-      "53c237_73x7",
+      "Bon pour regarder un film de fille dans le canapé",
     open: false
   },
   {
