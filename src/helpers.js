@@ -44,9 +44,9 @@ export const hatchArray = [
     id: "hatch-4",
     nr: 4,
     img_background: "./img/4.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/4_back.jpg",
     text:
-      "53c237_73x7",
+      "",
     open: false
   },
   {
