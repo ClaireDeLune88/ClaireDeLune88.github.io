@@ -43,8 +43,6 @@ function App() {
   // Check if the date is past
   const isPast = (nr) => {
     const today = new Date()
-
-    today.setDate(15);
     
     console.log("Jour: " + today.getDate() + 
                 " Mois: " + today.getMonth() +
