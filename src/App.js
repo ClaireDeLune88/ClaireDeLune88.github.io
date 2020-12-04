@@ -34,11 +34,10 @@ function App() {
   }, [])
 
   // Store calendar in localStorage
-  
-  useEffect(() => {
-    hatches.length && localStorage.setItem('calendar', JSON.stringify(hatches))
-  }, [hatches])
-  
+  //  useEffect(() => {
+  //   hatches.length && localStorage.setItem('calendar', JSON.stringify(hatches))
+  // }, [hatches])
+
 
   // Check if the date is past
   const isPast = (nr) => {

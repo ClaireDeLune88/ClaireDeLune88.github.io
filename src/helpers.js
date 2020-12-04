@@ -53,27 +53,27 @@ export const hatchArray = [
     id: "hatch-5",
     nr: 5,
     img_background: "./img/5.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/5_back.jpg",
     text:
-      "53c237_73x7",
+      "Bon pour passer ton tour à la vaisselle",
     open: false
   },
   {
     id: "hatch-6",
     nr: 6,
     img_background: "./img/6.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/6_back.jpg",
     text:
-      "53c237_73x7",
+      "Ton chérie va te chercher une viennoiserie de ton choix",
     open: false
   },
   {
     id: "hatch-7",
     nr: 7,
     img_background: "./img/7.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/7_back.jpg",
     text:
-      "53c237_73x7",
+      "Je crois en toi",
     open: false
   },
   {
