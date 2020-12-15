@@ -80,72 +80,72 @@ export const hatchArray = [
     id: "hatch-8",
     nr: 8,
     img_background: "./img/8.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/8_back.jpg",
     text:
-      "53c237_73x7",
+      "Tu m'envoies une photo de toi pour montrer au Père Noël ce que je veux pour Noël?",
     open: false
   },
   {
     id: "hatch-9",
     nr: 9,
     img_background: "./img/9.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/9_back.jpg",
     text:
-      "53c237_73x7",
+      "Ton chérie te prépare le plat de ton choix",
     open: false
   },
   {
     id: "hatch-10",
     nr: 10,
     img_background: "./img/10.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/10_back.jpg",
     text:
-      "53c237_73x7",
+      "Le père noël veut que tu lui envoie une lettre en lui confiant quel pyjama tu veux pour noël",
     open: false
   },
   {
     id: "hatch-11",
     nr: 11,
     img_background: "./img/11.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/11_back.jpg",
     text:
-      "53c237_73x7",
+      "Le père noël t'offre ta dernière facture EDF",
     open: false
   },
   {
     id: "hatch-12",
     nr: 12,
     img_background: "./img/12.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/12_back.jpg",
     text:
-      "53c237_73x7",
+      "Un repas sur Just-eat!",
     open: false
   },
   {
     id: "hatch-13",
     nr: 13,
     img_background: "./img/13.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/13_back.jpg",
     text:
-      "53c237_73x7",
+      "Une gourmandise de Bibou",
     open: false
   },
   {
     id: "hatch-14",
     nr: 14,
     img_background: "./img/14.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/14_back.jpg",
     text:
-      "53c237_73x7",
+      "Une photo de chat",
     open: false
   },
   {
     id: "hatch-15",
     nr: 15,
     img_background: "./img/15.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/15_back.jpg",
     text:
-      "53c237_73x7",
+      "Une bougie parfumé",
     open: false
   },
   {
