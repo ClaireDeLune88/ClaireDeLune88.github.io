@@ -18,7 +18,7 @@ export const hatchArray = [
     img_background: "./img/1.jpg",
     img_foreground: "./img/hatch_backdrop.jpg",
     text:
-      "Pas de chocolat aujourd'hui mais tu as gagné un massage! ",
+      "Pas de chocolat aujourd'hui mais tu as gagné un massage!. ",
     open: false
     
   },
@@ -152,9 +152,9 @@ export const hatchArray = [
     id: "hatch-16",
     nr: 16,
     img_background: "./img/16.jpg",
-    img_foreground: "./img/hatch_backdrop.jpg",
+    img_foreground: "./img/16_back.jpg",
     text:
-      "53c237_73x7",
+      "Un diner romantique",
     open: false
   },
   {
